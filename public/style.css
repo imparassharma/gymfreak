@@ -8,12 +8,34 @@ body{
     height: 100vh;
     overflow-y: none;
 }
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
 .container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 2rem;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: solid 2px white;
+    margin-top: 4rem;
 }
 
 .task{
