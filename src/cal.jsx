@@ -13,6 +13,7 @@ function Time(){
 
     return(
         <div className="container2">
+            <h1>Calories</h1>
             <h1>{calories}</h1>
             <button onClick={getCalories}>Banana++</button>
             <button onClick={getCalories2}>Paneer++</button>
